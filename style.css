@@ -1,11 +1,12 @@
-body {
+/* body {
     background-color: #f4eee8;
-}
+} */
 
 * {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 .header {
@@ -182,7 +183,89 @@ body {
 
 /* Footer */
 footer {
-    background-color: #939597;
+    background-color: #203E58;
+    color: #fff;
 }
 
+/* switch mode */
+.toggle{
+    padding-left: 1rem;
+    cursor: pointer;
+}
 
+.toggle i{
+    color: #444;
+}
+
+.profil.dark{
+    background-color: #393D47;
+    transition: 1s;
+}
+
+.contact.dark{
+    background-color: #393D47;
+    transition: 1s;
+}
+
+.navbar.dark{
+    background-color: #203E58;
+}
+
+.row.dark{
+    color: white;
+    transition: 1s;
+}
+
+#abyan.dark{
+    background-color: #dbd5d1;
+    transition: 1s;
+    border: 0cm;
+}
+
+#atika.dark{
+    background-color: #dbd5d1;
+    transition: 1s;
+    border: 0cm;
+}
+
+#dhito.dark{
+    background-color: #dbd5d1;
+    transition: 1s;
+    border: 0cm;
+}
+
+#hana.dark{
+    background-color: #dbd5d1;
+    transition: 1s;
+    border: 0cm;
+}
+
+#el.dark{
+    background-color: #dbd5d1;
+    transition: 1s;
+    border: 0cm;
+}
+
+#nama.dark{
+    color: white;
+    transition: 1s;
+}
+
+#email.dark{
+    color: white;
+    transition: 1s;
+}
+
+#pesan.dark{
+    color: white;
+    transition: 1s;
+}
+
+#respon.dark{
+    color: white;
+}
+
+.far.dark{
+    color:white;
+    transition: 1s;
+}

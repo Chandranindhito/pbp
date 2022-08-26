@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="img/play.png">
-    <title>Pemrograman Berbasis Objek</title>
+    <title>Pengembangan Berbasis Platform</title>
 
 
     <!-- Bootstrap CSS -->
@@ -28,7 +28,7 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light shadow-lg fixed-top" id="navbar">
+    <nav class="navbar navbar-expand-md shadow-lg fixed-top" id="navbar">
         <div class="container-sm">
             <a class="navbar-brand" href="index.html" id="logo">INFORMATIKA 2020</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -37,11 +37,13 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#profil">Profile</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
-                
+            </div>
+            <div class="toggle">
+                <i class="far fa-sun"></i>
             </div>
         </div>
     </nav>
@@ -49,13 +51,13 @@
     <section class="header" id="home">
         <div class="text-box">
             <h1>Pengembangan Berbasis Platform</h1>
-            <h3>Pemrograman Web dan Mobile</h3>
+            <h3 id="date"></h3>
             <p>Informatika Jaya</p>
             <a href="https://if.fsm.undip.ac.id/id/" class="hero-btn" target="_blank">Visit Us to know more</a>
         </div>
     </section>
 
-    <section id="profil">
+    <section class="profil" id="profil">
         <div class="container">
             <div class="row text-center">
                 <h1>Profile</h1>
@@ -63,87 +65,92 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <div class="card mx-auto">
-                        <img src="img/abyan.png" class="card-img-top" alt="...">
+                        <img src="img/abyan.png" class="card-img-top" id="abyan" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Abyan Ardiatama</h5>
-                          <p class="card-text">enthusiastic about Platform Oriented Programming</p>
+                            <h5 class="card-title">Abyan Ardiatama</h5>
+                            <p class="card-text">enthusiastic about Platform Oriented Programming</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                          <li class="list-group-item">24060120140161</li>
+                            <li class="list-group-item">24060120140161</li>
                         </ul>
                         <div class="card-body">
-                            <a href="https://instagram.com/abyan_ardiatama" target="_blank"><i class="fa fa-instagram text-black"></i></a>
+                            <a href="https://instagram.com/abyan_ardiatama" target="_blank"><i
+                                    class="fa fa-instagram text-black"></i></a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mx-auto">
-                        <img src="img/atika.png" class="card-img-top" alt="...">
+                        <img src="img/atika.png" class="card-img-top" id="atika" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Atika Resti Rahmanda</h5>
-                          <p class="card-text">Informatics student with interest in books reading</p>
+                            <h5 class="card-title">Atika Resti Rahmanda</h5>
+                            <p class="card-text">Informatics student with interest in books reading</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                          <li class="list-group-item">24060120130056</li>
+                            <li class="list-group-item">24060120130056</li>
                         </ul>
                         <div class="card-body">
-                            <a href="https://instagram.com/atikarestirhmd" target="_blank"><i class="fa fa-instagram text-black"></i></a>
+                            <a href="https://instagram.com/atikarestirhmd" target="_blank"><i
+                                    class="fa fa-instagram text-black"></i></a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mx-auto">
-                        <img src="img/dhito.png" class="card-img-top" alt="...">
+                        <img src="img/dhito.png" class="card-img-top" id="dhito" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Chandra Nugrahanindhito</h5>
-                          <p class="card-text">Informatics Student with interest in music especially guitar</p>
+                            <h5 class="card-title">Chandra Nugrahanindhito</h5>
+                            <p class="card-text">Informatics Student with interest in music especially guitar</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                          <li class="list-group-item">24060120140098</li>
+                            <li class="list-group-item">24060120140098</li>
                         </ul>
                         <div class="card-body">
-                            <a href="https://instagram.com/dhitochan" target="_blank"><i class="fa fa-instagram text-black"></i></a>
+                            <a href="https://instagram.com/dhitochan" target="_blank"><i
+                                    class="fa fa-instagram text-black"></i></a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mx-auto">
-                        <img src="img/hana.png" class="card-img-top" alt="...">
+                        <img src="img/hana.png" class="card-img-top" id="hana" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Mumtaz Hana Najda</h5>
-                          <p class="card-text">Informatics Student with interest in literature</p>
+                            <h5 class="card-title">Mumtaz Hana Najda</h5>
+                            <p class="card-text">Informatics Student with interest in literature</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                          <li class="list-group-item">24060120130107</li>
+                            <li class="list-group-item">24060120130107</li>
                         </ul>
                         <div class="card-body">
-                            <a href="https://instagram.com/hanajjda" target="_blank"><i class="fa fa-instagram text-black"></i></a>
+                            <a href="https://instagram.com/hanajjda" target="_blank"><i
+                                    class="fa fa-instagram text-black"></i></a>
                         </div>
-                      </div>
+                    </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card mx-auto">
-                        <img src="img/el.png" class="card-img-top" alt="...">
+                        <img src="img/el.png" class="card-img-top" id="el" alt="...">
                         <div class="card-body">
-                          <h5 class="card-title">Nurida Larasati</h5>
-                          <p class="card-text">Informatics Student with interest in graphic design</p>
+                            <h5 class="card-title">Nurida Larasati</h5>
+                            <p class="card-text">Informatics Student with interest in graphic design</p>
                         </div>
                         <ul class="list-group list-group-flush">
-                          <li class="list-group-item">24060120120005</li>
+                            <li class="list-group-item">24060120120005</li>
                         </ul>
                         <div class="card-body">
-                            <a href="https://instagram.com/pawlfawl" target="_blank"><i class="fa fa-instagram text-black"></i></a>
+                            <a href="https://instagram.com/pawlfawl" target="_blank"><i
+                                    class="fa fa-instagram text-black"></i></a>
                         </div>
-                      </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact  -->
-    <section id="contact">
+    <section class="contact" id="contact">
         <div class="container">
-            <div class="row text-center mb-3">
+            <div class="row text-center mb-3" id="contactTitle">
                 <div class="col">
                     <h2>Contact Us</h2>
                 </div>
@@ -152,20 +159,21 @@
                 <div class="col-md-6">
                     <form name="myForm" autocomplete="off" onsubmit="return validateForm();">
                         <div class="mb-3">
-                            <label for="fullname">Nama Lengkap</label>
+                            <label for="fullname" id="nama">Nama Lengkap</label>
                             <input type="text" class="form-control" id="fullname" name="fullname"
                                 aria-describedby="emailHelp" />
                         </div>
                         <div class="mb-3">
-                            <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" name="email" aria-describedby="email"/>
+                            <label for="email" id="email">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" aria-describedby="email" />
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3" id="pesan">
                             <label for="pesan">Pesan</label>
                             <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
                         </div>
-                        <h3 id="message"></h3>
-                        <button onclick="showMessage()" type="submit" value="submit" class="btn btn-primary">Submit</button>
+                        <h3 id="message" id="respon"></h3>
+                        <button onclick="showMessage()" type="submit" value="submit"
+                            class="btn btn-primary">Submit</button>
                     </form>
                 </div>
             </div>
