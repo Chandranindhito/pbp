@@ -69,6 +69,7 @@ const nama = document.querySelector("#nama");
 const email = document.querySelector("#email");
 const pesan = document.querySelector("#pesan");
 const toggle = document.querySelector(".toggle");
+const logo = document.querySelector("#logo");
 const button = document.querySelector(".far");
 
 toggle.addEventListener("click", () => {
@@ -86,4 +87,5 @@ toggle.addEventListener("click", () => {
   email.classList.toggle("dark");
   pesan.classList.toggle("dark");
   profile.classList.toggle("dark");
+  logo.classList.toggle("dark");
 });
